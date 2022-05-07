@@ -1,6 +1,49 @@
-.box{
+body{
+    background:#f3f5fc
+    
+}
+main{
     position: relative;
-    margin: 5% 5%;
-    padding: 5% 5%;
-    background-color: aqua;
+    margin: 1% 1%;
+    width: auto;
+    height: 940px;
+    background: #FFFFFF;
+    
+}
+main li{
+    display: inline-block;
+   
+    }
+.logo{
+    vertical-align: top;
+    text-align: center;
+    margin-right: 5%;
+    border: 1px solid #000000;
+}
+.conteudo{
+    vertical-align: top;
+    width:50%;
+    height: auto;
+    padding-top: 50px ;
+    border: 1px solid #000000;
+    border-width: 50% 80%;
+}
+.cripto{
+    align-content: center;
+    position: absolute;
+    right: 50px;
+    text-align:center;
+    vertical-align: middle;
+    border: 1px solid #000000;
+    width: 400px ;
+    height: 940px;
+}
+.artempy{
+    padding-top: 300px;
+    display: inline-block;
+    position:absolute;
+    width: 336px;
+    height: 304px;
+    
+
 }
