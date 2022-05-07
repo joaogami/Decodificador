@@ -5,19 +5,24 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
 </head>
 <body>
-    
-    <main>
+    <header>
+        <img class="logoalura" src="img/LogoAlura.png">
+    </header>
+    <main class="container">
         <ul>
-            <li class="logo">
-                <img class="LogoAlura" src="img/LogoAlura.png">
-            </li>
             <li class="conteudo">
-                <input>
+                <input class="text" placeholder="Digite seu texto">
+                 <p class="info"><img class="i" src="img/i.png"> Apenas letras minúsculas e sem acento.</p>
+                <p class="botoes">
+                    <button class="criptografar">Criptografar</button> 
+                    <button class="descriptografar">Descriptografar</button>
+                </p>
             </li>
             <li class="cripto">
-                <img class="ArtEmpty" src="img/ArtEmpty.png">
+                <img class="artempty" src="img/ArtEmpty.png">
                 <p class="alert">Nenhuma mensagem encontrada</p>
                 <p class="instruct">Digite um texto que você deseja<br> criptografar ou descriptografar.</p>
             </li>

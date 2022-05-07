@@ -1,57 +1,90 @@
 body{
+    display: flex;
     background:#f3f5fc
-    padding-box
+    
 }
-main{
-    position: absolute;
+.logoalura{
+    margin: 50px;
+}
+.container{
+    display: flex;   
     margin: 2% 2%;
     width: 1200px;
-    height: 944px;
-    background: #FFFFFF;
-    
+    height: 900px;
 }
 main li{
     margin: 10px 10px;
-    vertical-align: top;
-    display: inline-block;
-    border: 1px solid #000000;
+    
     }
-.logo{
-    vertical-align: top;
-    text-align: center;
-    margin-right: 5%;
-    border: 1px solid #000000;
-}
 .conteudo{
+    position: absolute;
     vertical-align: top;
-    width:50%;
-    height: 80%;
-    padding-top: 50px ;
-    border: 1px solid #000000;
-    border-width: 50% 80%;
+    box-sizing: border-box;
+    padding: 100px 0 0 0px;
+    width: 1200px;
+    height: 900px;
+}
+::placeholder{
+    color: #0A3871;
+}
+.text{
+    width: 680px;
+    height: 48px;
+    border-style: none;
+    background: transparent;
+    font-size: 32px;  
+    color: #0A3871; 
+    padding-bottom: 300px;
+}
+button{
+    height: 67px;
+    width: 352px;
+    border-radius: 24px;
+    border-color: #0A3871;
+    font-size: 16px;
+    font-family: "inter"; 
+    font-weight: bold;
+}
+.botoes{
+    position: relative;
+    display: inline;
+}
+.criptografar{
+    background-color: #0A3871;
+    color: #D8DFE8;
+}
+.descriptografar{
+    background-color: #D8DFE8;
+    color: #0A3871;
 }
 .cripto{
-    align-content: center;
+    background: #FFFFFF;
     position: absolute;
     right: 50px;
     text-align:center;
-    vertical-align: middle;
-    border: 1px solid #000000;
+    border-radius: 20px;
     width: 400px ;
-    height: 940px;
-    top: 0;
+    height: 900px;
+    top: 25px;
     bottom: 0;
-    margin: auto;
 }
-.artempy{
-    padding-top: 300px;
-    display: inline-block;
-    position:absolute;
+.artempty{
+    position: relative;
     width: 336px;
     height: 304px;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    
-
+    top: 250px;
+    align-items: center;
+}
+li p{
+    font-family: "inter";
+    position: relative;
+    word-wrap: break-word;
+    padding-bottom: 15px;
+    width: 400px;
+    top:300px;
+}
+.alert{
+    font-size: 32px;
+    font-weight: bold;
+   
 }
