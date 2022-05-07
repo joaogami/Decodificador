@@ -1,18 +1,20 @@
 body{
     background:#f3f5fc
-    
+    padding-box
 }
 main{
-    position: relative;
-    margin: 1% 1%;
-    width: auto;
-    height: 940px;
+    position: absolute;
+    margin: 2% 2%;
+    width: 1200px;
+    height: 944px;
     background: #FFFFFF;
     
 }
 main li{
+    margin: 10px 10px;
+    vertical-align: top;
     display: inline-block;
-   
+    border: 1px solid #000000;
     }
 .logo{
     vertical-align: top;
@@ -23,7 +25,7 @@ main li{
 .conteudo{
     vertical-align: top;
     width:50%;
-    height: auto;
+    height: 80%;
     padding-top: 50px ;
     border: 1px solid #000000;
     border-width: 50% 80%;
@@ -37,6 +39,9 @@ main li{
     border: 1px solid #000000;
     width: 400px ;
     height: 940px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
 }
 .artempy{
     padding-top: 300px;
@@ -44,6 +49,9 @@ main li{
     position:absolute;
     width: 336px;
     height: 304px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
     
 
 }
